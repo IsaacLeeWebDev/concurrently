@@ -70,7 +70,7 @@ Otherwise **concurrently** would try to run 4 separate commands:
 In package.json, escape quotes:
 
 ```bash
-"start": "concurrently \"command1 arg\" \"command2 arg\""
+"start": "concurrently 'command1 arg' 'command2 arg'"
 ```
 
 You can always check concurrently's flag list by running `concurrently --help`.
